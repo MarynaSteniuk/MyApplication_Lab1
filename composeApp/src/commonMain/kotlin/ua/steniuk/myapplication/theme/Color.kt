@@ -1,4 +1,4 @@
-package ua.steniuk.myapplication.ua.steniuk.myapplication.ui.theme
+package ua.steniuk.myapplication.theme
 
 import androidx.compose.ui.graphics.Color
 

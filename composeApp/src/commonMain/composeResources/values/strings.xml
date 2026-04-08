@@ -1,0 +1,25 @@
+<resources>
+    <string name="main">Main</string>
+    <string name="buttons">Buttons</string>
+    <string name="checkboxes">Checkboxes</string>
+    <string name="back">Back</string>
+    <string name="chips">Chips</string>
+    <string name="datepicker">Date Picker</string>
+    <string name="dialogs">Dialogs</string>
+    <string name="divider">Divider</string>
+    <string name="progress">Progress Indicators</string>
+    <string name="radio_title">Radio Buttons</string>
+    <string name="option_1">Option A</string>
+    <string name="option_2">Option B</string>
+    <string name="option_3">Option C</string>
+    <string name="selected_text">Selected: </string>
+    <string name="switch_title">Switch</string>
+    <string name="settings_label">Enable Notifications</string>
+    <string name="status_on">Status: ON</string>
+    <string name="status_off">Status: OFF</string>
+    <string name="timepicker_title">Time Picker</string>
+    <string name="open_time_picker">Open Time Picker</string>
+    <string name="selected_time">Selected Time: </string>
+    <string name="confirm">OK</string>
+    <string name="dismiss">Cancel</string>
+</resources>
