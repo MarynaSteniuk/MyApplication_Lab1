@@ -1,4 +1,4 @@
-package ua.steniuk.myapplication
+package ua.steniuk.myapplication.data.timezones
 
 interface TimeZoneHelper {
     fun getTimeZoneStrings(): List<String>

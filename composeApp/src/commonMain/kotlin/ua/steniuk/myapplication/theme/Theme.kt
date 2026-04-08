@@ -1,4 +1,4 @@
-package ua.steniuk.myapplication.ua.steniuk.myapplication.ui.theme
+package ua.steniuk.myapplication.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
