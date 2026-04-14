@@ -25,43 +25,13 @@ import myapplication.composeapp.generated.resources.compose_multiplatform
 import co.touchlab.kermit.Logger
 import org.jetbrains.compose.resources.Font
 import ua.steniuk.myapplication.ua.steniuk.myapplication.ui.theme.AppTheme
+import ua.steniuk.myapplication.ui.shared_mobile.main.MainScreen
 
 @Composable
 @Preview
 fun App() {
-    AppTheme {
-        var showContent by remember { mutableStateOf(false) }
-        Column(
-            modifier = Modifier
-                .background(MaterialTheme.colorScheme.primaryContainer)
-                .safeContentPadding()
-                .fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-        ) {
-            Button(onClick = {
-                showContent = !showContent
-                Logger.i { "Logger test." }
-            }) {
-                Text("Click me!")
-            }
-            AnimatedVisibility(showContent) {
-                val currentTime = remember { TimeZoneHelperImpl().currentTime() }
-                Column(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                ) {
-                    Image(painterResource(Res.drawable.compose_multiplatform), null)
-                    Text(
-                        text = "Current time: $currentTime",
-                        style = TextStyle(
-                            fontSize = 28.sp,
-                            fontFamily = FontFamily(
-                                Font(Res.font.audiowide_regular)
-                            ),
-                        )
-                    )
-                }
-            }
-        }
+    MaterialTheme {
+
+        MainScreen()
     }
 }
