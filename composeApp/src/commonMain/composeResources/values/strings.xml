@@ -1,4 +1,5 @@
 <resources>
+    <string name="app_name">Meeting's time finder %1$s</string>
     <string name="main">Main</string>
     <string name="buttons">Buttons</string>
     <string name="checkboxes">Checkboxes</string>
@@ -7,5 +8,12 @@
     <string name="cancel">Cancel</string>
     <string name="world_clocks">World Clocks</string>
     <string name="find_meeting">Find Meeting Time</string>
+    <string name="add_timezones">Add timezones</string>
+    <string name="meetings">Meetings</string>
     <string name="done">Done</string>
+    <string name="file">File</string>
+    <string name="new">New</string>
+    <string name="close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="new_window">New Window</string>
 </resources>
